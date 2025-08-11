@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+}
+.container {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-align: center;
+    background-color: #333;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 15px;
+    gap: 12px;
+}
+
+.item {
+    color: #fff;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #ff00ff;
+    border-radius: 5px;
+}
