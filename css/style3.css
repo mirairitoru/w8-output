@@ -3,33 +3,68 @@ body {
 }
 
 form {
-    padding: 12px;
+    width: 250px;
+    padding: 10px 20px;
     background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h3 {
+    font-size: 15px;
     color: #fff;
-    justify-content: center;
 }
-
+/* 
+emailフォーム
+*/
 .email-name {
     display: block;
     color: #fff;
+    font-size: 12px;
 }
+.email {
+    width: 245px;
+    padding: 5px 0;
 
+}
+/* 
+passwordフォーム
+*/
+.password-form {
+    margin-top: 15px;
+}
 .password-name {
     display: block;
     color: #fff;
+    font-size: 12px;
 }
-
-.email {
-
-}
-
 .password {
-
+    width: 245px;
+    padding: 5px 0;
+}
+/*
+ボタン 
+*/
+.submit {
+    border: none;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 245px;
+    padding: 5px;
+    background-color: #A0d8ef;
+    border-radius: 5px;
 }
 
-.submit {
-    
+/* 
+段落
+*/
+.sign {
+    font-size: 12px;
+    margin: 12px 0;
+}
+.sign a {
+    text-decoration: none;
 }
