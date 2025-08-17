@@ -11,3 +11,6 @@ style.css → 1/3 HTML/CSS 1　1.横4×縦4
 style1.css → 1/3 HTML/CSS 2 2.横2×縦2
 style2.css → 1/3 HTML/CSS 3 3.横6×縦1
 style3.css → ログインフォーム
+
+JSディレクトリ内
+main.js

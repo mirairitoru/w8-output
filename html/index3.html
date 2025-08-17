@@ -7,18 +7,19 @@
     <title>ログインフォーム</title>
 </head>
 <body>
-    <form class="form">
+    <form class="form" id="form-sign">
         <h3>Sign in to your account</h3>
-        <div class="email-form">
-            <label for="email" class="email-name">Your email</label>
-            <input type="email" class="email" id="email" name="email" placeholder="name@company.com">
+        <div>
+            <label for="email-data" class="email-name">Your email</label>
+            <input type="email" class="email" id="email-data" name="email" placeholder="name@company.com">
         </div>
         <div class="password-form">
-            <label for="password" class="password-name">Password</label>
+            <label for="password-data" class="password-name">Password</label>
             <input type="password" class="password" id="password-data" placeholder="パスワードを入力してください">
         </div>
-        <button type="submit" class="submit">Sign in</button>
+        <button type="submit" class="submit" id="submit-button">Sign in</button>
         <p class="sign">Don't have an account yet? <a href="#">Sign up</a></p>
     </form>
+    <script src="../js/main.js"></script>
 </body>
 </html>

@@ -1,7 +1,6 @@
 body {
     background-color: #000;
 }
-
 form {
     width: 250px;
     padding: 10px 20px;
@@ -11,15 +10,20 @@ form {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 h3 {
     font-size: 15px;
     color: #fff;
+}
+input {
+    border: 1px;
+    outline: none;
+    border-radius: 5px;
 }
 /* 
 emailフォーム
 */
 .email-name {
+    padding-bottom: 5px;
     display: block;
     color: #fff;
     font-size: 12px;
@@ -36,6 +40,7 @@ passwordフォーム
     margin-top: 15px;
 }
 .password-name {
+    padding-bottom: 5px;
     display: block;
     color: #fff;
     font-size: 12px;
