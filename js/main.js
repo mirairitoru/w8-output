@@ -13,6 +13,4 @@ document.getElementById('submit-button').addEventListener('click', () => {
 
     localStorage.setItem('email', email);
     localStorage.setItem('password', password);
-
-    alert('情報を保存しました！');
 });
