@@ -1,0 +1,24 @@
+{
+  "name": "w8-output",
+  "version": "1.0.0",
+  "description": "step9\r htmlディレクトリ内                       \r index.html → 1/3 HTML/CSS 1　1.横4×縦4\r index1.html → 1/3 HTML/CSS 2 2.横2×縦2 \r index2.html → 1/3 HTML/CSS 3 3.横6×縦1\r index3.html → ログインフォーム",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirairitoru/w8-output.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirairitoru/w8-output/issues"
+  },
+  "homepage": "https://github.com/mirairitoru/w8-output#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
