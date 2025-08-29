@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-document.getElementById('submit-button').addEventListener('submit', () => {
+document.getElementById('submit-button').addEventListener('click', () => {
     const email = document.getElementById('email-data').value;
     const password = document.getElementById('password-data').value;
 
