@@ -1,6 +1,5 @@
 body {
     background-color: #000;
-    height: 700px;
 }
 
 .wrapper-1 {
@@ -79,7 +78,7 @@ body {
 
 .item-3 {
     color: #fff;
-    width: calc(15% - -5px);
+    width: calc(15% - -20px);
     box-sizing: border-box;
     padding: 10px;
     background-color: #ff00ff;
