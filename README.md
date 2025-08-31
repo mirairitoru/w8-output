@@ -1,16 +1,9 @@
 # w8-output
-step9
-htmlディレクトリ内                       
-index.html → 1/3 HTML/CSS 1　1.横4×縦4
-index1.html → 1/3 HTML/CSS 2 2.横2×縦2 
-index2.html → 1/3 HTML/CSS 3 3.横6×縦1
-index3.html → ログインフォーム
+flex_formディレクトリ
+html → index.html
+css → style.css
 
-CSSディレクトリ内
-style.css → 1/3 HTML/CSS 1　1.横4×縦4
-style1.css → 1/3 HTML/CSS 2 2.横2×縦2
-style2.css → 1/3 HTML/CSS 3 3.横6×縦1
-style3.css → ログインフォーム
-
-JSディレクトリ内
-main.js
+login_formディレクトリ
+html → index.html
+css → style.css
+js → main.js
