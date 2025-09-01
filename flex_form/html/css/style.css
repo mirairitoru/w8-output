@@ -78,7 +78,7 @@ body {
 
 .item-3 {
     color: #fff;
-    width: calc(15% - -20px);
+    width: calc(100% / 6 - 10px);
     box-sizing: border-box;
     padding: 10px;
     background-color: #ff00ff;
